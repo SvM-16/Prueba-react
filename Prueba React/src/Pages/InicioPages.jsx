@@ -1,8 +1,12 @@
+import '../Css/Inicio.css'
 
 function InicioPages() {
   return (
-    <div>
-      <h1>Inicio</h1>
+    <div className='inicio'>
+      <h1 className='popular-t'>Popular title</h1>
+      <div>
+      <h1>Loading...</h1>
+      </div>
     </div>
   );
 }

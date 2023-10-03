@@ -4,7 +4,7 @@ function NavbarPeges() {
   return (
     <div className='navbarpages'>
         <div className="navbar">
-            <div className='flex'>
+            <div className='todo'>
                 <h1 className='titulo'>DEMON Streaming</h1>
                 <h1 className='log'>Log in</h1>
                 <h1 className='start'>Start your free trial</h1>
