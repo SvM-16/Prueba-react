@@ -1,12 +1,10 @@
 import '../Css/Inicio.css'
+import Cine from '../assets/placeholder.png'
 
 function InicioPages() {
   return (
-    <div className='inicio'>
-      <h1 className='popular-t'>Popular title</h1>
-      <div>
-      <h1>Loading...</h1>
-      </div>
+    <div>
+
     </div>
   );
 }

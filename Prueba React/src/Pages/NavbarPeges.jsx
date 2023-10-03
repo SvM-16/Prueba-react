@@ -2,15 +2,15 @@ import '../Css/navbar.css'
 
 function NavbarPeges() {
   return (
-    <div className='navbarpages'>
         <div className="navbar">
             <div className='todo'>
                 <h1 className='titulo'>DEMON Streaming</h1>
-                <h1 className='log'>Log in</h1>
-                <h1 className='start'>Start your free trial</h1>
+                <div className='login'>
+                  <a className='a' href="">log in</a>
+                  <button className='button'><a href="">Start your free trial</a></button>
+                </div>
             </div>
         </div>
-    </div>
   );
 }
 

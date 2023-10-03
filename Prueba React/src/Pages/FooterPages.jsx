@@ -6,34 +6,42 @@ import App from '../assets/store/app-store.svg'
 import Play from '../assets/store/play-store.svg'
 import Windows from '../assets/store/windows-store.svg'
 
-function FooterPages() {
+const Footer = () => {
   return (
-    <div className="footer">
-      <ul className="navegador ">
-        <li>
-          <a href="#">Home</a> | 
-          <a href="#">Terms and Conditions</a> | 
-          <a href="#">Privacy Policy</a> | 
-          <a href="#">Collection Statemet</a> | 
-          <a href="#">Help</a> | 
-          <a href="#">Manage Account</a> 
-        </li>
-        <div className='copy'>&copy; 2006 Línea de Código</div>
-      </ul>
-      <div className='log-img'>
-      <div className='logo'>
-        <img src={Facebook} alt="" />
-        <img src={Instagram} alt="" />
-        <img src={Twitter} alt="" />
-      </div>
-      <div className='img'>
-        <img src={App} alt="" />
-        <img src={Play} alt="" />
-        <img src={Windows} alt="" />
-      </div>
+    <div className='Container2'>
+      <div className="footer">
+        <div className="header">
+          <ul className="ul">
+            <li className="li"><a href="">Home</a></li>
+            |
+            <li className="li"><a href="">Terms and Conditions</a></li>
+            |
+            <li className="li"><a href="">Privacy Policy</a></li>
+            |
+            <li className="li"><a href="">Collection Statement</a></li>
+            |
+            <li className="li"><a href="">Help</a></li>
+            |
+            <li className="li"><a href="">Manage Account</a></li>
+          </ul>
+          <p className='p'>Copyright © 2016 DEMO Streaming. All Rights Reserved</p>
+        </div>
+        <div className="redesApp">
+          <div className="redes">
+            <img src={Facebook} alt="" className="redesimg" />
+            <img src={Twitter} alt="" className="redesimg" />
+            <img src={Instagram} alt="" className="redesimg" />
+          </div>
+          <div className="app">
+            <img src={App} alt="" className="appimg" />
+            <img src={Play} alt="" className="appimg" />
+            <img src={Windows} alt="" className="appimg" />
+          </div>
+        </div>
+
       </div>
     </div>
-  );
+  )
 }
 
-export default FooterPages
+export default Footer
