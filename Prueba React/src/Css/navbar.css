@@ -1,0 +1,5 @@
+.navbar{width: 1366px;height: 70px; background-color: blueviolet;}
+.flex{display: flex;}
+.titulo{padding: 20px;font-size: 25px;margin-left: 200px;}
+.log{padding: 23px; font-size: 20px;margin-left: 500px;}
+.start{width: 190px;height: 32px;background-color: black;color: white;font-size: 20px;text-align: center;margin-top: 16px;padding-top: 6px;border-radius: 4px;}
