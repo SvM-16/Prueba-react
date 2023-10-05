@@ -1,15 +1,17 @@
 import {BrowserRouter, useRoutes} from 'react-router-dom'
 import './App.css'
 
-import NavbarPeges from './Pages/NavbarPeges'
+import Navbar from './Components/Navbar'
 import InicioPages from '../src/Pages/InicioPages'
+import PopularPages from './Pages/PopularPages'
 import PeliculasPages from './Pages/PeliculasPages'
 import SeriesPages from './Pages/SeriesPages'
-import FooterPages from './Pages/FooterPages'
+import Footer from './Components/Footer'
 
 function Router() {
   let router = useRoutes([
     {path: '/', element:<InicioPages/>},
+    {path: '/Popular', element:<PopularPages/>},
     {path: '/Peliculas', element:<PeliculasPages/>},
     {path: '/Series', element:<SeriesPages/>},
   ])
@@ -21,10 +23,10 @@ function App() {
   return(
     <div>
     <BrowserRouter>
-    <NavbarPeges/>
+    <Navbar/>
       <Router>
       </Router>
-    <FooterPages/>
+    <Footer/>
     </BrowserRouter>
   </div>
   )

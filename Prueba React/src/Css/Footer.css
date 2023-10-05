@@ -7,7 +7,7 @@
     background-color: rgba(65,65,65,255);
     display: flex;
     justify-content: center;
-    
+    margin-top: 20px;
 }
 .footer{
     min-height: 100px;
