@@ -1,0 +1,26 @@
+.Peli-Series{
+    display: flex;
+}
+
+.peliculas, .series{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(95, 158, 160, 0.185);
+    margin: 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.cine{
+    width: 100%;
+    padding-top: 60px;
+    height: 200px;
+}
+
+.peli, .serie{
+    text-align: center;
+}
+
+.cine:hover{
+    opacity: 0.5;
+}

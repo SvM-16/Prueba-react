@@ -45,7 +45,7 @@ function PeliculasPages() {
 
   return (
     <div>
-      <Titulo titulo="Lo mas Popular en Peculas" />
+      <Titulo titulo="Lo mas Popular en Peliculas" />
       {
     error ?(
       <div className="error mensaje">Oops , something went  wrog</div>
