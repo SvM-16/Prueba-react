@@ -1,5 +1,5 @@
 *{
-    color: black;
+    color: rgb(253, 253, 253);
 }
 
 .generall{
@@ -24,7 +24,7 @@
     border-radius: 5px;
 }
 .img:hover{
-   opacity: 0.2;
+   opacity: 0.5;
   
 }
 
@@ -64,7 +64,7 @@
 }
 .butoon:hover{
     border: none;
-    background-color: blue;
+    background-color: rgb(43, 43, 46);
     color: white;
    
 }

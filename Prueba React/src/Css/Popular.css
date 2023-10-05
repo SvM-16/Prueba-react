@@ -5,10 +5,9 @@
     align-items: center;
     padding: 11px;
     color: white;
-    padding-left: 180px;
 }
 
-@media screen and (max-width:541px) {
+@media screen and (max-width:700px) {
     .nom-titulo{
         justify-content: center;
     }
