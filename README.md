@@ -1,4 +1,5 @@
 PruebaTecnicaReact
+
 codigo de ejecucion npm run dev
 
 ¿Cómo decidió las opciones técnicas y arquitectónicas utilizadas como parte de su solución? --Estructura del proyecto *Componentes: navbar -- footer -- popular *Pages: Paginas completas con home , movie , series *¨Rutas: Se manejaron en app.jsx con react-router-dom
